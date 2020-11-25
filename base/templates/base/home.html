@@ -1,0 +1,93 @@
+{% load static %}
+<!--
+
+<h1>Hello World</h1>
+
+<img src="{% static 'images/jishnu.jpg' %}">
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jishnu</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css'%}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-info" id="profile-wrapper">
+					<img src="{% static 'images/jishnu1.png' %}" id="profile-pic">
+					<hr>
+					<h4>Hi I'm Jishnu </h4>
+					<p>I love coding, doing research and collaberating.</p>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="card card-body h-100 border-info">
+					<h4>My First Job as a Developer</h4>
+					<hr>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim vulputate vestibulum. Proin facilisis magna et risus pharetra accumsan. Nam dapibus tempor porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+					<p>
+						Proin elit nisl, consectetur sed porttitor a, pellentesque id magna. Nulla in sagittis erat, at porta mauris. Vestibulum consequat consectetur urna, eu pellentesque ante ornare nec. Cras accumsan sapien in ligula ultrices facilisis.
+					</p>
+					<p>
+						Duis pharetra urna non euismod ultrices. Sed luctus lacus vitae erat iaculis feugiat.
+					</p>
+					<ul class="social-links">
+						<a href="https://www.facebook.com"><li><img class="social" src="{% static 'images/facebook.png' %}"></li></a>
+						<a href="https://www.linkedin.com"><li><img class="social" src="{% static 'images/linkedin.png' %}"></li></a>
+						<a href="https://www.twitter.com"><li><img class="social" src="{% static 'images/twitter.png' %}"></li></a>
+						<a href="https://www.youtube.com"><li><img class="social" src="{% static 'images/youtube.png' %}"></li></a>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Python Django developer at EnVvu Marketting Solutions</p>
+					<p>Designed ,Build and Managed Websites.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I know</h5>
+					<hr>
+					<p>Python,Django,HTML/CSS,Javascript,Sqlite3,api's such as google maps</p>
+					<p>working on django,and full stack development</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Revers Engineer and build ugly prototype first.</p>
+					<p>I Learn through the udemy platform and youtube for the software development and the documentation of the corresponding languages.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+					<hr>
+					<p>After almost supporting system at the lab i'm ready to learn something new.
+
+					Aside from building small projects I would love to enter a position where i can be part of a bigger team & learn from others with more experience than myself. </p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>	
+</body>
+</html>
